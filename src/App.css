@@ -1,0 +1,341 @@
+.App {
+  text-align: inherit;
+  background-image: url(https://i.pinimg.com/originals/27/5a/2b/275a2ba5b194c1f725d7903d05d57861.jpg) ;
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.HomePage{
+  font-family: Arial;
+  color:rgb(220, 220, 233);
+  
+}
+.HomePage h1{
+  color:white;
+  text-align: center;
+  padding: 100px 50px;
+  text-size-adjust: auto;
+
+}
+
+.App-header {
+  background-color: #b6c3db;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(8, 0, 0);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(56, 61, 58, 0.897);
+}
+
+li {
+  float:right;
+}
+
+li a {
+  display: block;
+  color: rgb(238, 224, 224);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: rgba(29, 16, 16, 0.897);
+}
+
+li a:hover {
+  
+  background-color: rgb(149, 119, 233);
+  box-shadow: 0 0 20px 10px hsla(204, 70%, 53%, 0.5);
+}
+
+.active {
+  background-color: #121312;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.content h1{
+  color: white;
+  padding: 50px 16px;
+  text-align: center;
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-index{
+   font-family: Arial, Helvetica, sans-serif;
+   border-collapse: collapse;
+   width: 100%;
+   color:royalblue;
+
+}
+
+ .App {
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top:auto;
+  padding: 0px 0px;
+  color: #e70e0e;
+  background-color: #28292b;
+  font-size: 15px ;
+  text-align: center;
+}
+
+table{
+  margin-left:auto;
+  margin-right:auto;
+  height: 60%;
+  width: 70%;
+  padding-top: 150px;
+  padding-bottom: 12px;
+}
+.design table.center{
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 60%;
+  text-align: center;
+  
+}
+.design thead {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #afaf65;
+  color: rgb(240, 207, 207);
+}
+
+.design tr{
+  text-align: left;
+  color: white;
+}
+
+.design tr:nth-child(even){background-color: #989b8f71;}
+
+.design tr:hover {background-color: rgb(22, 111, 163);}
+
+.text button{
+  color: rgb(235, 228, 228);
+  text-align: center;
+  padding: 2px 5px;
+  background-color: rgb(72, 226, 110);
+  font-size: 16px;
+  position:absolute;
+  top: 24%;
+  right: 20%;
+
+}
+.text button:hover {
+  background: transparent;
+  box-shadow: 0 0 20px 10px hsla(204, 70%, 53%, 0.5);
+}
+
+.create {
+  display: flex;
+  align-items: center;
+  min-height: 60vh;
+  flex-direction: column;
+  padding: 50px 40px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.create h1 {
+  margin: 0 0 24px 0;
+  font-size: 30px;
+  color:rgb(214, 160, 11);
+}
+.user-box input[type=text] {
+
+  width: 50%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  bottom: 2px solid #fff;
+  outline: none;
+  background: transparent;
+  text-align: left;
+  float: right;
+  }
+
+.user-box label{
+  position: left;
+  float: left;
+  text-align: right;
+  padding: 10px 0;
+  font-size: 16px;
+  color:rgb(111, 205, 243);
+
+}
+  
+.create button{
+  padding: 4px 15px;
+  border-radius: 0;
+  overflow: hidden;
+}
+  
+  .create button:hover {
+    background: transparent;
+    box-shadow: 0 0 20px 10px hsla(204, 70%, 53%, 0.5);
+}
+
+.update {
+  display: flex;
+  align-items: center;
+  min-height: 60vh;
+  flex-direction: column;
+  padding: 50px 40px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.update h1 {
+  margin: 0 0 24px 0;
+  font-size: 30px;
+  color:rgb(214, 160, 11);
+}
+.update-box input[type=text] {
+
+  width: 50%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  bottom: 2px solid #fff;
+  outline: none;
+  background: transparent;
+  text-align: left;
+  float: right;
+  }
+
+.update-box label{
+  position: left;
+  float: left;
+  text-align: right;
+  padding: 10px 0;
+  font-size: 16px;
+  color: rgb(111, 205, 243);
+
+}
+  
+.update button{
+  padding: 4px 15px;
+  border-radius: 0;
+  overflow: hidden;
+  background-color: #e7eff1;
+}
+  
+  .update button:hover {
+    background: transparent;
+    box-shadow: 0 0 20px 10px hsla(204, 70%, 53%, 0.5);
+}
+
+  
+    .view {
+      display: flex;
+      align-items: center;
+      min-height: 60vh;
+      flex-direction: column;
+      padding: 50px 40px;
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 400px;
+      padding: 40px;
+      transform: translate(-50%, -50%);
+      background: rgba(0,0,0,.5);
+      box-sizing: border-box;
+      box-shadow: 0 15px 25px rgba(0,0,0,.6);
+      border-radius: 10px;
+    }
+    
+    .view h1 {
+      margin: 0 0 24px 0;
+      font-size: 30px;
+      color:rgb(214, 160, 11);
+    }
+    .view-box input[type=text] {
+    
+      width: 50%;
+      padding: 10px 0;
+      font-size: 16px;
+      color: #fff;
+      margin-bottom: 30px;
+      border: none;
+      bottom: 2px solid #fff;
+      outline: none;
+      background: transparent;
+      text-align: left;
+      float: right;
+      }
+    
+    .view-box label{
+      position: left;
+      float: left;
+      text-align: right;
+      padding: 10px 0;
+      font-size: 16px;
+      color: rgb(111, 205, 243);
+    
+    }
+      
+   .view-button{
+      text-align: left;
+   }
+    
